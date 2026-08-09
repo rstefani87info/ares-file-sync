@@ -1,0 +1,24 @@
+{
+  "name": "@ares/file-sync",
+  "version": "1.0.0",
+  "description": "Sincronizza i file tra directories o per singolo file link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roberto Stefani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstefani87info/ares-file-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rstefani87info/ares-file-sync.git/issues"
+  },
+  "homepage": "https://github.com/rstefani87info/ares-file-sync.git#readme",
+  "dependencies": {
+    "@ares/core": "workspace:^",
+    "@ares/files": "workspace:^",
+    "chokidar": "^4.0.3"
+  }
+}
